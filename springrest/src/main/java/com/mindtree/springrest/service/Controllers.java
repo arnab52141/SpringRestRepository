@@ -1,4 +1,4 @@
-package com.mindtree.springrest.controller;
+package com.mindtree.springrest.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.mindtree.springrest.entities.Emp;
-import com.mindtree.springrest.service.EmpService;
 
 @RestController
 public class Controllers {
